@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>日本大学文理学部情報科学科 Webプログラミングの演習課題</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h>日本大学文理学部情報科学科 Webプログラミングの演習課題</h>
+    <br>
+    <name>5421020 坂内武希</name>
+    <br>
+    <p>head要素</p>
+
+    <ul1>
+        <li>headはhtmlの最初の要素で使われる。</li1>
+        <li>先頭要素のスタートタグがからであるか、先頭要素の内側の最小のものが要素であるならば省略できる。</li1>
+        <li>先頭要素の後にアスキー空白文字か、コメントがすぐに続くならば、先頭要素のエンドタグは省略することができる。</li1>
+    </ul1>
+
+    <div class="box">
+        <p2>使用例:</p2>
+        <pre>
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="ja"&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;ここにタイトルをかく。&lt;/title&gt;
+                    &lt;/head&gt;
+            </code>
+        </pre>
+    </div>
+
+    <p>title要素</p>
+
+    <ul2>
+        <li>tite要素はメタデータである。</li>
+        <li>head要素に含まれることが多い。</li>
+        <li>タグの省略をすることはできない。</li>
+        <li>主に、ドキュメントのタイトルや名前を表すためのタグである。</li>
+    </ul2>
+
+    <div class="box">
+        <p2>使用例</p2>
+        <pre>
+                <code>
+                    &lt;head&gt;
+                        &lt;title&gt;ここにタイトルをかく。&lt;/title&gt;
+                    &lt;/head&gt;
+                </code>
+            </pre>
+    </div>
+
+    <p>base要素</p>
+
+    <ul3>
+        <li>base要素はメタデータである。</li>
+        <li>URLを指定するものである。</li>
+        <li>他のURLの属性値を持つ要素の前におく必要がある。</li>
+    </ul3>
+
+    <div class="box">
+        <p2>使用例</p2>
+        <pre>
+                <code>
+                    &lt;base href="ここにURLを貼る"&gt;
+                    &lt;base target="_blank"&gt;
+                    &lt;base target="_top" href="ここにURLを貼る"&gt;
+                </code>
+        </pre>
+    </div>
+
+    <div class="box">
+        <p2>結果</p2>
+        <base href="https://portal.educ.chs.nihon-u.ac.jp/">
+        <base target="_black">
+        <base target="_top" href="https://portal.educ.chs.nihon-u.ac.jp/">
+
+        <a href="https://portal.educ.chs.nihon-u.ac.jp/">日本大学文理学部ポータルサイト</a>
+    </div>
+</body>
+
+</html>

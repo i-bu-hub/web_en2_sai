@@ -1,0 +1,32 @@
+html{
+    font-size: 10px;
+    font-family: "OpenSans","sans-serif";
+}
+
+h{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: blueviolet;
+}
+
+p{
+    font-size: 15px;
+    margin: 0;
+    padding: 20px 0;
+    color: red;
+}
+
+name{
+    font-size: 15px;
+}
+
+.box{
+    width: 550px;
+    height: 120;
+    padding: 0.5em lem;
+    margin: 2em 0;
+    background: whitesmoke;
+    border: dashed black;
+}
